@@ -1,0 +1,24 @@
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+.container {
+  border: 1px solid black;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.background {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 1px solid greenyellow;
+  background-color: aquamarine;
+  z-index: -1;
+}
